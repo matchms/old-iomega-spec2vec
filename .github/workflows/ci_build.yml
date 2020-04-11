@@ -1,4 +1,4 @@
-name: 'Build matchms'
+name: 'Build old iomega/spec2vec files'
 
 on: [push, pull_request]
 
@@ -18,7 +18,7 @@ jobs:
         with:
           auto-update-conda: true
           python-version: ${{ matrix.python-version }}
-          activate-environment: matchms
+          activate-environment: iomega-spec2vec
           environment-file: environment.yml
           condarc-file: condarc.yml
           auto-activate-base: false
