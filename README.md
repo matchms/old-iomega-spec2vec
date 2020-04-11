@@ -1,6 +1,4 @@
-*******************
-old iomega spec2vec
-*******************
+# old iomega spec2vec
 
 See also https://github.com/iomega/Spec2Vec
 
