@@ -1,4 +1,4 @@
-name: matchms
+name: iomega-spec2vec
 channels:
   - defaults
   - conda-forge
